@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "814171750822",
+    "project_id": "onmic-a54cd",
+    "storage_bucket": "onmic-a54cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814171750822:android:0b85eeb64e7af83ea7cf67",
+        "android_client_info": {
+          "package_name": "com.abao.onmic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814171750822-vod4111hh0a73d5s9ucn8911ruth4qqh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArOQGkOU3gTvVKMxA8D-hgCjci630rImE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814171750822-vod4111hh0a73d5s9ucn8911ruth4qqh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

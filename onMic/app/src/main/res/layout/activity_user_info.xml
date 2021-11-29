@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserInfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#DFEFED"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="25dp">
+
+            <TextView
+                android:id="@+id/tvShop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:drawableStart="@drawable/cart"
+                android:fontFamily="@font/nexabold"
+                android:text=" Shop"
+                android:textColor="#FF8240"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#DFEFED"
+            android:gravity="center_horizontal"
+            android:paddingTop="25dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvUserInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/person"
+                android:fontFamily="@font/nexabold"
+                android:text=" User"
+                android:textColor="#FF8240"
+                android:textSize="25dp"
+                android:layout_marginBottom="25dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#FF8240"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="620dp"
+        android:layout_marginTop="225dp"
+        android:background="@color/lightorange"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="300dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="180dp"
+            android:background="@drawable/edittextbg"
+            android:elevation="2dp"
+            android:fontFamily="@font/nexalight"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/tvPhoneNumber"
+            android:layout_width="300dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittextbg"
+            android:elevation="2dp"
+            android:fontFamily="@font/nexalight"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="300dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittextbg"
+            android:elevation="2dp"
+            android:fontFamily="@font/nexalight"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/tvPassword"
+            android:layout_width="300dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittextbg"
+            android:elevation="2dp"
+            android:fontFamily="@font/nexalight"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/tvOrderStatus"
+            android:layout_width="300dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittextbg"
+            android:elevation="2dp"
+            android:fontFamily="@font/nexalight"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/orange"
+        android:layout_below="@id/layout">
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/man"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"/>
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/lightorange"
+        android:elevation="1dp"
+        android:fontFamily="@font/nexabold"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="0dp"
+        android:text="Name"
+        android:textColor="@color/black"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/tvName"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/button1"
+        android:elevation="10dp"
+        android:fontFamily="@font/nexalight"
+        android:text="Logout"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/aclonica</item>
+        <item>@font/aguafina_script</item>
+        <item>@font/alfa_slab_one</item>
+        <item>@font/biorhyme</item>
+        <item>@font/biorhyme_bold</item>
+        <item>@font/biorhyme_extrabold</item>
+        <item>@font/biorhyme_extralight</item>
+        <item>@font/biorhyme_light</item>
+        <item>@font/bungee_inline</item>
+        <item>@font/candal</item>
+        <item>@font/roboto</item>
+        <item>@font/roboto_bold</item>
+        <item>@font/roboto_medium</item>
+    </array>
+</resources>

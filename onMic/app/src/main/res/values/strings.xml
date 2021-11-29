@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">onMic</string>
+
+    <string name="info1">
+        Brand: Ace\n
+        <br>Input Connectivity: USB\n</br>
+        <br>Connection Type: Wireless\n</br>
+        <br>Audio Compt.: Mobile/PC\n</br>
+        <br>Bluetooth: Yes\n</br>
+        <br>Sensitivity Rating: 88dB\n</br>
+        <br>Impedance: 20hms\n</br>
+    </string>
+
+    <string name="info2">
+        Brand: No Brand\n
+        <br>No. Channels: 7.2\n</br>
+        <br>RGB Lighting: Yes\n</br>
+        <br>Model: V8 Sound Card\n</br>
+        <br>Color: Black\n</br>
+        <br>Weight: 467g\n</br>
+        <br>Battery: 1000mAh\n</br>
+    </string>
+
+    <string name="info3">
+        Brand: WOW Fiesta\n
+        <br>Mic type: Handheld\n</br>
+        <br>Mic Connectivity: Wired\n</br>
+        <br>Connectivity: USB\n</br>
+        <br>Weight: 2kg\n</br>
+        <br>USB Slot: 320gb\n</br>
+    </string>
+
+    <string name="info4">
+        Brand: No Brand\n
+        <br>Platinum reyna\n</br>
+        <br>2 microphones\n</br>
+        <br>Long Wired Connection\n</br>
+        <br>21 inch Screen\n</br>
+        <br>2 Song Books\n</br>
+    </string>
+
+</resources>

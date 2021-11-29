@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContentActivity"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/lightorange"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:drawableStart="@drawable/cart"
+                android:fontFamily="@font/nexabold"
+                android:text=" Shop"
+                android:textColor="#FF8240"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#FF8240" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/lightorange"
+            android:gravity="center_horizontal"
+            android:paddingTop="25dp">
+
+            <TextView
+                android:id="@+id/tvUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/person"
+                android:fontFamily="@font/nexabold"
+                android:text=" User"
+                android:textColor="#FF8240"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvLarger1"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:cardBackgroundColor="@color/lightorange"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="0dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/model1"
+                            app:shapeAppearanceOverlay="@style/borderImage"
+                            app:strokeWidth="2dp"
+                            app:strokeColor="@color/orange"/>
+
+                        <Button
+                            android:id="@+id/btnFirstRent"
+                            android:layout_width="100dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/button3"
+                            android:fontFamily="@font/nexabold"
+                            android:text="Rent"
+                            android:textColor="@color/white"
+                            android:textSize="14sp"
+                            tools:ignore="TouchTargetSizeCheck"
+                            android:elevation="10dp"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvItemName1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/nexabold"
+                            android:text="Ace SJ-8809"
+                            android:textColor="@color/orange"
+                            android:textSize="24sp"
+                            android:background="@color/lightorange"
+                            android:elevation="1dp"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="1dp"
+                            android:paddingRight="1dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:fontFamily="@font/nexalight"
+                            android:text="@string/info1"
+                            android:textAlignment="viewStart"
+                            android:textSize="14sp"
+                            android:lineHeight="17dp"
+                            android:textColor="@color/black"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvLarger2"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:cardBackgroundColor="@color/lightorange"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="0dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/model2"
+                            app:shapeAppearanceOverlay="@style/borderImage"
+                            app:strokeColor="@color/orange"
+                            app:strokeWidth="2dp" />
+
+                        <Button
+                            android:id="@+id/btnSecondRent"
+                            android:layout_width="100dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/button3"
+                            android:fontFamily="@font/nexabold"
+                            android:text="Rent"
+                            android:textColor="@color/white"
+                            android:textSize="14sp"
+                            tools:ignore="TouchTargetSizeCheck"
+                            android:elevation="10dp"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvItemName2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text="V8 Soundcard"
+                            android:textColor="@color/orange"
+                            android:textSize="24sp"
+                            android:background="@color/lightorange"
+                            android:elevation="1dp"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="1dp"
+                            android:paddingRight="1dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:fontFamily="@font/nexalight"
+                            android:text="@string/info2"
+                            android:textAlignment="viewStart"
+                            android:textSize="14sp"
+                            android:lineHeight="17dp"
+                            android:textColor="@color/black"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvLarger3"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:cardBackgroundColor="@color/lightorange"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="0dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/model3"
+                            app:shapeAppearanceOverlay="@style/borderImage"
+                            app:strokeWidth="2dp"
+                            app:strokeColor="@color/orange" />
+
+                        <Button
+                            android:id="@+id/btnThirdRent"
+                            android:layout_width="100dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/button3"
+                            android:fontFamily="@font/nexabold"
+                            android:text="Rent"
+                            android:textColor="@color/white"
+                            android:textSize="14sp"
+                            tools:ignore="TouchTargetSizeCheck"
+                            android:elevation="10dp"/>
+
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvItemName3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_bold"
+                            android:lineHeight="22dp"
+                            android:text="WOW Fiesta Medley 2"
+                            android:textColor="@color/orange"
+                            android:textSize="24sp"
+                            android:background="@color/lightorange"
+                            android:elevation="1dp"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="1dp"
+                            android:paddingRight="1dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:fontFamily="@font/nexalight"
+                            android:text="@string/info3"
+                            android:textAlignment="viewStart"
+                            android:textSize="14sp"
+                            android:lineHeight="17dp"
+                            android:textColor="@color/black"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvLarger4"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:cardBackgroundColor="@color/lightorange"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="0dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/model4"
+                            app:shapeAppearanceOverlay="@style/borderImage"
+                            app:strokeWidth="2dp"
+                            app:strokeColor="@color/orange"/>
+
+                        <Button
+                            android:id="@+id/btnFourthRent"
+                            android:layout_width="100dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/button3"
+                            android:fontFamily="@font/nexabold"
+                            android:text="Rent"
+                            android:textColor="@color/white"
+                            android:textSize="14sp"
+                            tools:ignore="TouchTargetSizeCheck"
+                            android:elevation="10dp"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvItemName4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_bold"
+                            android:lineHeight="22dp"
+                            android:text="Videoke Machine"
+                            android:textColor="@color/orange"
+                            android:textSize="24sp"
+                            android:background="@color/lightorange"
+                            android:elevation="1dp"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="1dp"
+                            android:paddingRight="1dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:fontFamily="@font/nexalight"
+                            android:lineHeight="17dp"
+                            android:text="@string/info4"
+                            android:textAlignment="viewStart"
+                            android:textSize="14sp"
+                            android:textColor="@color/black"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
